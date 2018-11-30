@@ -5,16 +5,16 @@
 
   <div class="jumbotron text-center">
     <div class="container">
-      <a href="/" class="lang-logo">
+      <a href="/" class="tusca-logo">
         <img src="{% static 'tusca-logo.png' %}">
       </a>
       <h1>TUSCA</h1>
 
-      <h1>Sistema para Compra de Ingressos</h1>
+      <h2>Sistema para Compra de Ingressos</h2>
 
       <p>Sistema online para compra de ingressos para os shows que acontecerão na durante os dias da Taça Universitária
         de São Carlos.</p>
-      <a type="button" class="btn btn-lg btn-default" href="#"><span class="glyphicon glyphicon-user"></span> Entrar</a>
+      <a type="button" class="btn btn-lg btn-default" onclick="location.href='{% url 'login' %}'"><span class="glyphicon glyphicon-user"></span> Entrar</a>
       <a type="button" class="btn btn-lg btn-primary" href="#"><span class="glyphicon glyphicon-download"></span>
         Registrar
       </a>
